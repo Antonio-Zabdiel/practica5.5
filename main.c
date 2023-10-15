@@ -11,7 +11,6 @@ int main(){
     printf("dime cuantos datos quieres ingresar, no mas de 100: ");
     scanf("%d", &n);
 
-
     //bucle uno, registro de datos #1
     for (i = 0; i < n; i++){
         printf("ingresa un dato: ");
@@ -19,7 +18,6 @@ int main(){
         nums[i] = n2;
     }
       
-
     //bucle 2 para la suma usada ten el promecsio #2
     //seccion de promedio
     for(j = 0 ; j < i ; j++){
